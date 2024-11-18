@@ -29,14 +29,22 @@
 // }
 
 //checking numbers +ve, -ve ...and zero
-void main() {
-  int number = 0;
+// void main() {
+//   int number = 0;
 
-  if (number > 0) {
-    print("$number is positive");
-  } else if (number < 0) {
-    print("$number is negative");
-  } else {
-    print("The number is zero");
-  }
+//   if (number > 0) {
+//     print("$number is positive");
+//   } else if (number < 0) {
+//     print("$number is negative");
+//   } else {
+//     print("The number is zero");
+//   }
+// }
+
+void main() {
+  int a = 5;
+  int b = 4;
+  int output = a * b;
+
+  print("The result of $a * $b is $output");
 }
