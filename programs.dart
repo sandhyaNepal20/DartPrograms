@@ -15,18 +15,18 @@
 // }
 
 //find the largest num
-// void main() {
-//   int num1 = 12;
-//   int num2 = 5;
+void main() {
+  int num1 = 19;
+  int num2 = 80;
 
-//   if (num1 > num2) {
-//     print("$num1 is larger than $num2");
-//   } else if (num1 < num2) {
-//     print("$num2 is larger than $num1");
-//   } else {
-//     print("$num1 and $num2 are equal");
-//   }
-// }
+  if (num1 > num2) {
+    print("$num1 is larger than $num2");
+  } else if (num1 < num2) {
+    print("$num2 is larger than $num1");
+  } else {
+    print("$num1 and $num2 are equal");
+  }
+}
 
 //checking numbers +ve, -ve ...and zero
 // void main() {
@@ -41,10 +41,14 @@
 //   }
 // }
 
-void main() {
-  int a = 5;
-  int b = 4;
-  int output = a * b;
 
-  print("The result of $a * $b is $output");
-}
+
+
+//multiplication of 2 numbers
+// void main() {
+//   int a = 5;
+//   int b = 4;
+//   int output = a * b;
+
+//   print("The result of $a * $b is $output");
+// }
